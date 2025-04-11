@@ -16,13 +16,13 @@ This portfolio showcases my work as a 3rd Year College Student at Gardner Colleg
 ![Contact Page]<img src="https://cdn.discordapp.com/attachments/1117026822845116478/1360239563829940274/image.png?ex=67fa6550&is=67f913d0&hm=e89af685f5a1ddbfbc54080eb082be2eb6e2d308eaee67b807de4eff5b10e615&" alt="Contact">
 
 ## Link to Hosted Portfolio
-[View my portfolio here](https://<your-username>.github.io/<your-repo-name>)
+[View my portfolio here](http://localhost:3000/)
 ## Installation
 To run this project locally, follow these steps:
 
 1. Clone the repository:
 
-   git clone https://github.com/<your-username>/<your-repo-name>.git
+   git clone https://github.com/MrkJsphNdls/Final-Assessment-Personal-Portfolio-Website.git
 2. Navigate to the project directory:
    
    cd personal-portfolio
