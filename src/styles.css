@@ -1,0 +1,288 @@
+body {
+    font-family: 'Arial', sans-serif; /* You can change the font if needed */
+    background-image: url('https://i.pinimg.com/736x/6f/76/e3/6f76e3ae56022bb225415b8cb8f85df9.jpg'); /* Background image */
+    background-size: cover; /* Cover the entire body */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    color: #000000; /* Black text */
+}
+
+.fixed {
+    position: fixed;
+}
+
+.bg-white {
+    background-color: #ffffff; /* White background */
+}
+
+.text-black {
+    color: #000000; /* Black text */
+}
+
+.bg-blue-200 {
+    background-color: #bfdbfe; /* Light blue background */
+}
+
+.text-blue-900 {
+    color: #1e3a8a; /* Dark blue text */
+}
+
+.text-gray-500 {
+    color: #6b7280; /* Gray text */
+}
+
+.rounded-full {
+    border-radius: 9999px; /* Fully rounded corners */
+}
+
+.border-r {
+    border-right-width: 1px;
+}
+
+.border-gray-200 {
+    border-right-color: #e5e7eb;
+}
+
+.flex {
+    display: flex;
+}
+
+.min-h-screen {
+    min-height: 100vh;
+}
+
+.w-1/4 {
+    width: 25%;
+}
+
+.p-8 {
+    padding: 2rem;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.mb-8 {
+    margin-bottom: 2rem;
+}
+
+.space-y-4 > * + * {
+    margin-top: 1rem;
+}
+
+.space-x-2 > * + * {
+    margin-left: 0.5rem;
+}
+
+.mt-8 {
+    margin-top: 2rem;
+}
+
+.w-3/4 {
+    width: 75%;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.items-start {
+    align-items: flex-start;
+}
+
+.content-section {
+    transition: opacity 0.3s ease;
+    padding: 20px; /* Padding for content sections */
+    background: white; /* White background for content */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    margin: 20px; /* Margin around content sections */
+}
+
+.hidden {
+    display: none;
+}
+
+.grid {
+    display: grid;
+}
+
+.grid-cols-1 {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+}
+
+@media (min-width: 768px) {
+    .md\:grid-cols-2 {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+@media (min-width: 1024px) {
+    .lg\:grid-cols-3 {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+}
+
+.gap-4 {
+    gap: 1rem;
+}
+
+.mb-4 {
+    margin-bottom: 1rem;
+}
+
+.w-8 {
+    width: 2rem;
+}
+
+.h-8 {
+    height: 2rem;
+}
+
+.bg-gradient-to-r {
+    background-image: linear-gradient(to right, #60a5fa, #3b82f6);
+}
+
+.text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+
+.mt-4 {
+    margin-top: 1rem;
+}
+
+.bg-blue-900 {
+    background-color: #1e3a8a;
+}
+
+.text-white {
+    color: #ffffff;
+}
+
+.px-4 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.py-2 {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.contact-btn:hover {
+    background-color: #3b82f6; /* Lighter blue on hover */
+}
+
+/* Styling for the About Me section */
+#about {
+    background-color: #f0f4f8; /* Light background */
+    border-radius: 8px; /* Rounded corners */
+    padding: 2rem; /* Padding inside the section */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    max-width: 900px;
+    margin: 2rem auto; /* Centering the section */
+    font-family: 'Roboto', sans-serif; /*
+    /* Smooth, modern font */
+}
+
+#about h2 {
+    font-size: 2rem;
+    color: #1e3a8a; /* Dark blue for the heading */
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+#about p {
+    font-size: 1.125rem; /* Slightly larger text for better readability */
+    line-height: 1.8;
+    color: #333; /* Dark text color */
+    margin-bottom: 1rem;
+}
+
+/* Styling for the Projects Section */
+#project-container {
+    /* Already defined in index.html */
+}
+
+.project-card {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+}
+
+.project-card:hover {
+    transform: scale(1.05);
+}
+
+.project-image-container {
+    width: 100%;
+    aspect-ratio: 16 / 9; /* Adjust as needed */
+    overflow: hidden;
+}
+
+.project-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.project-info {
+    padding: 1rem;
+    text-align: center;
+}
+
+.project-title {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    color: #333;
+}
+
+/* Style for the active link */
+.active-link {
+    color: #0d28a6; /* An even darker shade of blue */
+    font-weight: bold; /* Optionally make it bold */
+}
+
+/* Sidebar Button Container Style */
+.nav-button {
+    width: 100%;
+    background-color: #e0f2fe; /* Light blue */
+    padding: 0.75rem 1rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.nav-button:hover {
+    background-color: #bae6fd; /* Darker on hover */
+}
+
+/* Optional: Style the icons more uniformly */
+.nav-button i {
+    font-size: 1rem;
+}
+
+.nav-button span {
+    font-weight: 500;
+}
+
+.large-container {
+    padding: 40px; /* Increase padding for the container */
+    margin: 20px; /* Adjust margin if needed */
+    background: rgba(255, 255, 255, 0.9); /* Optional: Add a semi-transparent background */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.text-3xl {
+    font-size: 2rem; /* Increase font size for larger text */
+    line-height: 2.5rem; /* Adjust line height for better spacing */
+}
